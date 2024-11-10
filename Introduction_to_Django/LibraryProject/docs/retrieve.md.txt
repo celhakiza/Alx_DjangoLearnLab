@@ -1,0 +1,16 @@
+
+#### b) **Retrieve Operation**
+
+**File:** `retrieve.md`
+
+```markdown
+### Retrieve the Book Instance
+
+**Command:**
+
+```python
+# Retrieve and display all attributes of the created book
+book = Book.objects.get(id=1)
+print(book.title)  # Expected output: "1984"
+print(book.author)  # Expected output: "George Orwell"
+print(book.publication_year)  # Expected output: 1949

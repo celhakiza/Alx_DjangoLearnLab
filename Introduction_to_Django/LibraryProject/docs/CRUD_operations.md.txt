@@ -1,0 +1,4 @@
+
+### 4. Consolidated Documentation `CRUD_operations.md`
+
+Create a file named `CRUD_operations.md` and copy the contents from each of the individual `create.md`, `retrieve.md`, `update.md`, and `delete.md` files to this single file for submission.

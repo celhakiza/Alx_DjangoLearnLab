@@ -1,0 +1,18 @@
+
+#### d) **Delete Operation**
+
+**File:** `delete.md`
+
+```markdown
+### Delete the Book Instance
+
+**Command:**
+
+```python
+# Delete the book instance
+book = Book.objects.get(id=1)
+book.delete()  # Delete the instance from the database
+
+# Attempt to retrieve the book to confirm deletion
+books = Book.objects.all()
+print(books)  # Expected output: Empty queryset, confirming deletion

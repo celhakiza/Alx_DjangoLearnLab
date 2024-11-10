@@ -1,0 +1,16 @@
+
+#### c) **Update Operation**
+
+**File:** `update.md`
+
+```markdown
+### Update the Book Title
+
+**Command:**
+
+```python
+# Update the title of the book
+book = Book.objects.get(id=1)
+book.title = "Nineteen Eighty-Four"
+book.save()  # Save changes to the database
+print(book.title)  # Expected output: "Nineteen Eighty-Four"
